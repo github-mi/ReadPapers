@@ -27,7 +27,8 @@
 
 > NLP的套路一般分为两步走，首先用大量的无标签的文本语料预训练出一个模型，然后在完成下游任务时对预训练的模型进行finetune。
 
-> 无监督预训练模型的方法可以分为两大类：autoregressive (AR) 和 autoencoding (AE)。AR旨在使用自回归模型建立文本语料的概率分布，具体来说就是给定一段文本序列
+> 无监督预训练模型的方法可以分为两大类：autoregressive (AR) 和 autoencoding (AE)。AR旨在使用自回归模型建立文本语料的概率分布，具体来说就是给定一段文本序列 $x = \left(x_1,\cdots,x_T\right)$ 
+
 
 # 参考资料
 

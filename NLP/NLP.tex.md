@@ -1,5 +1,3 @@
-> 提示：GitHub无法正常显示公式，可以使用[GitHub with MathJax](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)插件来解决此问题
-
 <!-- TOC -->
 
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](#bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding)
@@ -29,7 +27,7 @@
 - AR旨在使用自回归模型建立文本语料的概率分布。  
 具体来说就是给定一段文本序列 $x = (x_1,\cdots,x_T)$ ，AR会将likelihood拆成前向概率连乘 $p(x) = \prod_{t=1}^T p(x_t \mid \mathbf{x}_{<t})$ 或者反向概率连乘 $p(x) = \prod_{t=T}^1 p(x_t \mid \mathbf{x}_{>t})$ 。  
 
-- AE test
+- AE 
 
 # 参考资料
 

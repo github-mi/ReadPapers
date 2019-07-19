@@ -25,9 +25,9 @@
 无监督预训练模型的方法可以分为两大类：autoregressive (AR) 和 autoencoding (AE)。
 
 - AR旨在使用自回归模型建立文本语料的概率分布。  
-具体来说就是给定一段文本序列 $x = (x_1,\cdots,x_T)$ ，AR会将likelihood拆成前向概率连乘 $p(x) = \prod_{t=1}^T p(x_t \mid \mathbf{x}_{<t})$ 或者反向概率连乘 $p(x) = \prod_{t=T}^1 p(x_t \mid \mathbf{x}_{>t})$ 。  
+具体来说就是给定一段文本序列 <img src="svgs/4dfed65fc01f334683c73bd5faad8339.svg" align=middle width=119.88715529999997pt height=24.65753399999998pt/> ，AR会将likelihood拆成前向概率连乘 <img src="svgs/2473b3271c84af8da5416cc9988c6b02.svg" align=middle width=169.04093744999997pt height=32.256008400000006pt/> 或者反向概率连乘 <img src="svgs/aad61e222554548a3630c1aadcfe93ea.svg" align=middle width=172.02206999999999pt height=31.36100879999999pt/> 。  
 
-- AE 
+- AE
 
 # 参考资料
 

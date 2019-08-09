@@ -8,10 +8,12 @@ Read deep learning papers based on different topics.
 - augmentation
 
 # 公式说明
+  
+每个目录下都有两个同名文件，其中\*.tex.md是纯文本格式，\*.md是带图片的便于阅读格式。
 
-使用[readme2tex](https://github.com/leegao/readme2tex) 将Latex公式转为文本,\*.tex.md是纯文本格式，转化为对应的\*.md(公式转为svg图片)。
+使用[readme2tex](https://github.com/leegao/readme2tex) 将Latex公式转为svg图片：
 
-```python
+```bash
 python -m readme2tex --output README.tex.md README.md --nocdn
 ```
 

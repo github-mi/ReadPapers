@@ -48,6 +48,7 @@ Gumbel Max Trick 得到的是Categorical分布的离散采样<img src="svgs/459e
 <p align="center"><img src="svgs/24450bf266668c3500ac54bf65e48960.svg" align=middle width=215.7567918pt height=49.315569599999996pt/></p>
 
 # 参考资料
+
 - <https://www.zybuluo.com/pearl3344/note/878835>
-- [The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables](https://arxiv.org/abs/1611.00712)(有gunbel softmax 分布的推导)
+- [The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables](https://arxiv.org/abs/1611.00712)(有gumbel softmax 分布的推导)
 - [Categorical Reparameterization with Gumbel-Softmax](https://arxiv.org/abs/1611.01144)

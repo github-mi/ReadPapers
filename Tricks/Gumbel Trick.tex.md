@@ -1,3 +1,12 @@
+<!-- TOC -->
+
+- [Gumbel 分布](#gumbel-分布)
+- [Inverse transform sampling](#inverse-transform-sampling)
+- [Gumbel Max Trick](#gumbel-max-trick)
+- [Gumbel Softmax Trick](#gumbel-softmax-trick)
+- [参考资料](#参考资料)
+
+<!-- /TOC -->
 # Gumbel 分布
 
 Gumbel distribution(Generalized Extreme Value distribution Type-I)用于衡量某些分布的采样的最大值(或最小值)的分布。
